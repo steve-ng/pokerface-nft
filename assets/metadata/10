@@ -1,0 +1,10 @@
+{
+  "name": "PokerFace#10",
+  "description": "PokerFace is an artwork generated for gambling advise",
+  "image": "https://d2126epqdbsmq2.cloudfront.net/images/10.png",
+  "attributes": [
+    { "trait_type": "background", "value": "blue" },
+    { "trait_type": "border", "value": "green" },
+    { "trait_type": "scribble", "value": "crystal" }
+  ]
+}

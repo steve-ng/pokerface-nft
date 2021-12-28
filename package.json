@@ -1,16 +1,19 @@
 {
-  "name": "pokerface",
+  "name": "TheAlien.888",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "iZND Group",
   "license": "ISC",
   "dependencies": {
     "@openzeppelin/contracts": "^4.3.1",
-    "@truffle/hdwallet-provider": "^1.5.0",
+    "@truffle/hdwallet-provider": "^2.0.0",
     "sol-merger": "^3.1.0"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.20"
   }
 }

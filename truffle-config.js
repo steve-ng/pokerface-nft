@@ -85,7 +85,7 @@ module.exports = {
         return new HDWalletProvider({
           privateKeys: [PRIVATE_KEY],
           providerOrUrl:
-            'https://rinkeby.infura.io/v3/c104e7dbe46a428e915a02aa9600985e',
+            'https://rinkeby.infura.io/v3/f5771ff91b69450da2877ec526e34574',
         })
       },
       network_id: '4',
@@ -115,7 +115,7 @@ module.exports = {
 
   // Set default mocha options here, use special reporters etc.
   mocha: {
-    // timeout: 100000
+    timeout: 100000
   },
 
   // Configure your compilers
@@ -129,7 +129,7 @@ module.exports = {
           enabled: true,
           runs: 200,
         },
-        //  evmVersion: "byzantium"
+          evmVersion: "byzantium"
       },
     },
   },

@@ -85,7 +85,7 @@ module.exports = {
         return new HDWalletProvider({
           privateKeys: [PRIVATE_KEY],
           providerOrUrl:
-            'https://rinkeby.infura.io/v3/f5771ff91b69450da2877ec526e34574',
+            'https://rinkeby.infura.io/v3/5aa44315b09449abbc7780467ea76bc0',
         })
       },
       network_id: '4',
@@ -97,7 +97,7 @@ module.exports = {
     //   provider: () =>
     //     new HDWalletProvider(
     //       mnemonic,
-    //       `https://ropsten.infura.io/v3/YOUR-PROJECT-ID`,
+    //       `hhttps://rinkeby.infura.io/v3/f5771ff91b69450da2877ec526e34574`,
     //     ),
     //   network_id: 3, // Ropsten's id
     //   gas: 5500000, // Ropsten has a lower block limit than mainnet
@@ -121,7 +121,7 @@ module.exports = {
   // Configure your compilers
   compilers: {
     solc: {
-      version: '0.8.0', // Fetch exact version from solc-bin (default: truffle's version)
+      version: '0.8.4', // Fetch exact version from solc-bin (default: truffle's version)
       // docker: true,        // Use "0.5.1" you've installed locally with docker (default: false)
       settings: {
         // See the solidity docs for advice about optimization and evmVersion
@@ -129,7 +129,7 @@ module.exports = {
           enabled: true,
           runs: 200,
         },
-          evmVersion: "byzantium"
+         // evmVersion: "byzantium"
       },
     },
   },

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.3;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
@@ -24,9 +24,9 @@ contract TheAlien888 is
     uint256 public constant PRICE = 3 * 10**16;
     uint256 public constant MAX_BY_MINT = 20;
     address public constant creatorAddress =
-        0x7e093c7A77c282111Cc79E61f41F1F2e35f12127;
+        0xE765DCc7EB89af12f0fBa94654B3fa4fe4A30742;
     address public constant devAddress =
-        0x7e093c7A77c282111Cc79E61f41F1F2e35f12127;
+        0xE765DCc7EB89af12f0fBa94654B3fa4fe4A30742;
     string public baseTokenURI;
 
     event CreatePenguin(uint256 indexed id);

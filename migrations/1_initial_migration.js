@@ -1,5 +1,5 @@
-const PokerFace = artifacts.require('PokerFaces')
+const TheAlien888 = artifacts.require('TheAlien888')
 
 module.exports = function (deployer) {
-  deployer.deploy(PokerFace, 'https://d2126epqdbsmq2.cloudfront.net/info/')
+  deployer.deploy(TheAlien888, 'https://gateway.pinata.cloud/ipfs/QmXnTo6WnFdV7J5zBAHYnqggJziuoT3PmV8rwyvpy185BN')
 }
